@@ -47,7 +47,7 @@ or can simply follow the follwing steps to acheive the goal.
        
        `extractionPath = '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/'`
        
-       `with ZipFile(dataPath, 'r') as zf:
+       `with ZipFile(dataPath, 'r') as zf:`
        
          for member in tqdm(zf.infolist(), desc='Extracting'):
          
