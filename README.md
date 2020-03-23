@@ -19,12 +19,12 @@ or can simply follow the follwing steps to acheive the goal.
   ### Step# 2
    + In your Google-Colab Notebook type the following code to install `kaggle API` and make a directory called kaggle.
   
-  `!pip install -U -q kaggle`
-  
-  `!mkdir -p ~/.kaggle`
+      `!pip install -U -q kaggle`
+
+      `!mkdir -p ~/.kaggle`
   
    + Execute the following code in the new cell to import the recently downloaded API key named `kaggle.json` from your PC to Google-Colab environment. 
    
-   `from google.colab import files`
+      `from google.colab import files`
    
-   `files.upload()`
+      `files.upload()`
