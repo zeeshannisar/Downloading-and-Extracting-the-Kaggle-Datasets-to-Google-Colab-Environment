@@ -47,11 +47,18 @@ or can simply follow the follwing steps to acheive the goal.
        
        `extractionPath = '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/'`
        
-#Unzip the dataset downloaded from kaggle
-       `with ZipFile(dataPath, 'r') as zf:
-         for member in tqdm(zf.infolist(), desc='Extracting'):
-           try:
-             # Extract all the contents of zip file in the data directory
-             zf.extract(member, extractionPath)
-           except zipfile.error as e:
-             pass``
+       `#Unzip the dataset downloaded from kaggle`
+       
+       `with ZipFile(dataPath, 'r') as zf:`
+       
+         `for member in tqdm(zf.infolist(), desc='Extracting'):`
+         
+           `try:`
+           
+             `# Extract all the contents of zip file in the data directory`
+             
+             `zf.extract(member, extractionPath)`
+           
+           `except zipfile.error as e:`
+           
+             `pass``
