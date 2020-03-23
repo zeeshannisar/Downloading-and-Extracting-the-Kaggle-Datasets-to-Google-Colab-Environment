@@ -39,24 +39,14 @@ or can simply follow the follwing steps to acheive the goal.
       `!kaggle datasets download -d jessicali9530/celeba-dataset -p '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/'`
       
    + The above command would take some time to download a zip file in the mentioned directory. Once the download is complete run the following script to extract the data from zip file.
-      `from tqdm.notebook import tqdm`
-      
-      `from zipfile import ZipFile`
-       
-       `dataPath = '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/celeba-dataset.zip'`
-       
-       `extractionPath = '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/'`
-       
-       `with ZipFile(dataPath, 'r') as zf:`
-       
+      ```from tqdm.notebook import tqdm
+      from zipfile import ZipFile
+      dataPath = '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/celeba-dataset.zip'
+      extractionPath = '/content/drive/My Drive/GitHub Repositories/Generative Models Papers with Implementation in Keras/Autoencoders/datasets/'
+      with ZipFile(dataPath, 'r') as zf:
          for member in tqdm(zf.infolist(), desc='Extracting'):
-         
            try:
-           
              # Extract all the contents of zip file in the data directory
-             
              zf.extract(member, extractionPath)
-           
            except zipfile.error as e:
-           
-             pass`
+             pass```
