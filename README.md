@@ -49,4 +49,5 @@ or can simply follow the follwing steps to acheive the goal.
              # Extract all the contents of zip file in the data directory
              zf.extract(member, extractionPath)
            except zipfile.error as e:
-             pass```
+             pass
+        ```
