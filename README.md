@@ -1,5 +1,5 @@
 # Downloading and Extracting the Kaggle Datasets to Google-Colab Environment:
-This repository is about to explain that how the Kaggle datatsets can be downloaded directly into your Google Colab environment using the Kaggle API. You can directly refer to my [![Google-Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/zeeshannisar/Downloading-and-Extracting-the-Kaggle-Datasets-to-Google-Colab-Environment/blob/master/Downloading%20and%20Extracting%20the%20Kaggle%20Dataset%20to%20Google%20Colab%20Environment.ipynb)
+This repository is about to explain that how the Kaggle datatsets can be downloaded directly into your Google Colab environment using the Kaggle API. You can directly [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/zeeshannisar/Downloading-and-Extracting-the-Kaggle-Datasets-to-Google-Colab-Environment/blob/master/Downloading%20and%20Extracting%20the%20Kaggle%20Dataset%20to%20Google%20Colab%20Environment.ipynb)
 or can simply follow the follwing steps to acheive the goal.
 
 ### Step# 1
